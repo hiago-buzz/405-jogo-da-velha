@@ -17,3 +17,7 @@
 - Kathlein Freire.
 - Gabriel Santos.
 - Pedro Santos. 
+
+---
+
+- Para jogar [click aqui] ("https://hiago-buzz.github.io/405-jogo-da-velha/")   
