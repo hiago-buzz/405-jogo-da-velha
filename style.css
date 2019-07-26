@@ -7,6 +7,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    font-family: 'Courier New', Courier, monospace;
 
 }
 
@@ -17,9 +18,12 @@ nav{
     align-items: center;
     width: 50%;
     height: 30vh;
-    background-color: aqua;
+    background-color: black;
 }
+nav h1, h2, h3, p{
 
+    color: white;
+}
 header{
     display: flex;
     flex-direction: column;
@@ -27,13 +31,13 @@ header{
     align-items: center;
     width: 50%;
     height: 60vh;
-    background-color: blue;
+    background-color: #208CB3;
     
 }
 
 header section{
     display: flex;
-    background-color: brown;
+    background-color: black;
 }
 
 header section div{
@@ -42,8 +46,9 @@ header section div{
     justify-content: center;
     width: 120px;
     height: 120px;
-    background-color: bisque;
-    border:1px solid black;
+    background-color: #47CEFF;
+    border:3px solid #208CB3;
+    cursor: pointer;
 }
 
 footer{
@@ -52,6 +57,17 @@ footer{
     justify-content: center;
     width: 50%;
     height: 10vh;
-    background-color: blue;
+    background-color: #208CB3;
 
+}
+
+footer button{
+    border: none;
+    background-color: #FF7B00;
+    font-size: 12pt;
+    color: white;
+    width: 70px;
+    height: 40px;
+    border-radius:30px;
+    cursor: pointer;
 }
