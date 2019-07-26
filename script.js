@@ -66,11 +66,14 @@ function ganhador(){
         quadrado.onclick = null;
     }
 
-    else if(quadrados[2].innerHTML != "" && quadrados[2].innerHTML == quadrados[5].innerHTML && quadrados[8].innerHTML){
+    else if(quadrados[2].innerHTML != "" && quadrados[2].innerHTML == quadrados[5].innerHTML && quadrados[5].innerHTML == quadrados[8].innerHTML){
         resposta.innerHTML = "Você Ganhou!!!";
         quadrado.onclick = null;    
     }
 
+    else if (i === 9){
+        resposta.innerHTML = "#velha";
+    }
 
     else{
         resposta.innerHTML = "";

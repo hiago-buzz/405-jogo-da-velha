@@ -83,3 +83,20 @@ footer button{
     cursor: pointer;
 }
 
+@media (max-width: 1259px){
+
+    p{
+        font-size:12px;
+    }
+
+    header section div{
+
+        width: 80px;
+        height: 80px;
+
+    }
+   
+}
+
+@media ()
+
