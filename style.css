@@ -91,12 +91,33 @@ footer button{
 
     header section div{
 
-        width: 80px;
-        height: 80px;
+        width: 90px;
+        height: 90px;
 
     }
    
 }
 
-@media ()
+@media (max-width: 886px){
+    nav{
+        width: 60%;
+
+    }
+
+    header{
+        width: 60%;
+    }
+
+    header section div{
+
+        width: 90px;
+        height: 90px;
+
+    }
+
+    footer{
+        width: 60%;
+    }
+
+}
 
