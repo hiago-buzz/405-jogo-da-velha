@@ -1,0 +1,1 @@
+let quadrados = document.querySelectorAll ("div");
