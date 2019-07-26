@@ -19,8 +19,19 @@ nav{
     width: 50%;
     height: 30vh;
     background-color: black;
+    
 }
-nav h1, h2, h3, p{
+nav h1{
+
+    color: #FF7B00;
+    font-size: 24pt;
+
+}
+
+nav h3{
+    color: lawngreen;
+}
+nav , h2, p{
 
     color: white;
 }
@@ -71,3 +82,4 @@ footer button{
     border-radius:30px;
     cursor: pointer;
 }
+

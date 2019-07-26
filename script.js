@@ -11,7 +11,7 @@ function jogada (){
         if(i %2 == 0){
             this.innerHTML = `<p> ${jogador1}</p>`;
             this.style.color = "white";
-            this.style.fontSize = "25pt";
+            this.style.fontSize = "30pt";
             i ++;
             ganhador();
             
@@ -19,7 +19,7 @@ function jogada (){
 
             this.innerHTML = `<p> ${jogador2}</p>`;
             this.style.color = "white";
-            this.style.fontSize = "25pt";
+            this.style.fontSize = "30pt";
             i ++;
             ganhador();
         }
@@ -29,6 +29,7 @@ function jogada (){
 
 
 function ganhador(){
+
 
     if(quadrados[0].innerHTML != "" && quadrados[0].innerHTML == quadrados[1].innerHTML && quadrados[1].innerHTML == quadrados[2].innerHTML){
         resposta.innerHTML = "Você Ganhou!!!";
@@ -67,12 +68,13 @@ function ganhador(){
 
     else if(quadrados[2].innerHTML != "" && quadrados[2].innerHTML == quadrados[5].innerHTML && quadrados[8].innerHTML){
         resposta.innerHTML = "Você Ganhou!!!";
-        quadrado.onclick = null;
+        quadrado.onclick = null;    
     }
 
 
     else{
         resposta.innerHTML = "";
+        quadrado.onclick = null;  
     }
 
 
