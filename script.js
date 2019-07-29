@@ -33,46 +33,55 @@ function ganhador(){
 
     if(quadrados[0].innerHTML != "" && quadrados[0].innerHTML == quadrados[1].innerHTML && quadrados[1].innerHTML == quadrados[2].innerHTML){
         resposta.innerHTML = "Você Ganhou!!!";
+        resposta.style.color = 'limegreen';
         quadrado.onclick = null;
     }
 
     else if(quadrados[3].innerHTML != "" && quadrados[3].innerHTML == quadrados[4].innerHTML && quadrados[4].innerHTML == quadrados[5].innerHTML){
         resposta.innerHTML = "Você Ganhou!!!";
+        resposta.style.color = 'limegreen';
         quadrado.onclick = null;
     }
 
     else if(quadrados[6].innerHTML != "" && quadrados[6].innerHTML == quadrados[7].innerHTML && quadrados[7].innerHTML == quadrados[8].innerHTML){
         resposta.innerHTML = "Você Ganhou!!!";
+        resposta.style.color = 'limegreen';
         quadrado.onclick = null;
     }
 
     else if(quadrados[0].innerHTML != "" && quadrados[0].innerHTML == quadrados[4].innerHTML && quadrados[4].innerHTML == quadrados[8].innerHTML){
         resposta.innerHTML = "Você Ganhou!!!";
+        resposta.style.color = 'limegreen';
         quadrado.onclick = null;
     }
 
     else if(quadrados[2].innerHTML != "" && quadrados[2].innerHTML == quadrados[4].innerHTML &&  quadrados[4].innerHTML == quadrados[6].innerHTML){
         resposta.innerHTML = "Você Ganhou!!!";
+        resposta.style.color = 'limegreen';
         quadrado.onclick = null;
     }
 
     else if(quadrados[0].innerHTML != "" && quadrados[0].innerHTML == quadrados[3].innerHTML && quadrados[3].innerHTML == quadrados[6].innerHTML){
         resposta.innerHTML = "Você Ganhou!!!";
+        resposta.style.color = 'limegreen';
         quadrado.onclick = null;
     }
 
     else if(quadrados[1].innerHTML != "" && quadrados[1].innerHTML == quadrados[4].innerHTML && quadrados[4].innerHTML == quadrados[7].innerHTML){
         resposta.innerHTML = "Você Ganhou!!!";
+        resposta.style.color = 'limegreen';
         quadrado.onclick = null;
     }
 
     else if(quadrados[2].innerHTML != "" && quadrados[2].innerHTML == quadrados[5].innerHTML && quadrados[5].innerHTML == quadrados[8].innerHTML){
         resposta.innerHTML = "Você Ganhou!!!";
+        resposta.style.color = 'limegreen';
         quadrado.onclick = null;    
     }
 
     else if (i === 9){
         resposta.innerHTML = "#velha";
+        resposta.style.color = 'red';
     }
 
     else{
@@ -95,6 +104,8 @@ function resetar (){
         quadrado.innerHTML = "";
 
     }
+    i = 0;
+    resposta.innerHTML = "";
 }
 
 botao.onclick = resetar;
