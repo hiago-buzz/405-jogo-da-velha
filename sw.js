@@ -35,4 +35,4 @@ self.addEventListener('fetch', function (event) {
       return cachedResponse || fetch(event.request);
     })
   );
-});
+}); 
