@@ -27,10 +27,10 @@ nav h1{
     font-size: 24pt;
 
 }
-
 nav h3{
-    color: lawngreen;
+    font-size: 30pt;
 }
+
 nav , h2, p{
 
     color: white;
@@ -125,6 +125,9 @@ footer button{
     nav{
         width: 100%;
 
+    }
+    nav h3{
+        font-size: 15pt;
     }
 
     header{
