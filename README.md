@@ -20,4 +20,4 @@
 
 ---
 
-- Para jogar [click aqui] ("https://hiago-buzz.github.io/405-jogo-da-velha/")   
+- Para jogar ("https://hiago-buzz.github.io/405-jogo-da-velha/")   
