@@ -11,6 +11,8 @@ body{
 
 }
 
+/* display do cabeçario */
+
 nav{
     display: flex;
     flex-direction: column;
@@ -35,6 +37,9 @@ nav , h2, p{
 
     color: white;
 }
+
+/* display do tabuleiro */
+
 header{
     display: flex;
     flex-direction: column;
@@ -62,6 +67,8 @@ header section div{
     cursor: pointer;
 }
 
+/* display rodapé de reset */
+
 footer{
     display: flex;
     align-items: center;
@@ -83,6 +90,8 @@ footer button{
     cursor: pointer;
 }
 
+/* responsivo tela média */
+
 @media (max-width: 1259px){
 
     p{
@@ -97,6 +106,8 @@ footer button{
     }
    
 }
+
+/* responsivo Tablet */
 
 @media (max-width: 886px){
     nav{
@@ -120,6 +131,8 @@ footer button{
     }
 
 }
+
+/* responsivo celular */
 
 @media (max-width:425px){
     nav{
